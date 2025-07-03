@@ -70,7 +70,7 @@ export default function Game() {
 
     const handleNewGame = () => {
         setSquares(Array(9).fill(null)); // מאתחל לוח ריק
-        setXIsNext(true); // תור של X
+        setXIsNext(true); 
         setCount([0, 0]); // מאתחל מונה
         setWinnerLine(null)
         setIsGameFinish(false)
