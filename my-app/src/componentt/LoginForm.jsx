@@ -14,11 +14,9 @@ export default function LoginForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (isRegistering) {
-            // הרשמה
             console.log("Registering user:", formData);
 
         } else {
-            // התחברות
             console.log("Logging in user:", formData);
 
         }
@@ -59,7 +57,7 @@ export default function LoginForm() {
                 </button>
             </form>
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
-            
+
             <button onClick={handleGoogleLogin}>
                 התחברות עם Google
             </button>
