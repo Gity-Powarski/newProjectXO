@@ -44,6 +44,6 @@
 }
 
 .square.winning {
-  background-color: #c8e6c9; /* רקע ירוק בהיר */
+  background-color: #c8e6c9;
   border: 2px solid green;
 }
