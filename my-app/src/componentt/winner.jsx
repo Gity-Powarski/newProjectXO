@@ -1,5 +1,5 @@
 import Confetti from 'react-confetti';
-
+            
 export default function Winner({ winnerLine, squares }) {
     var symbol;
     if (winnerLine) {

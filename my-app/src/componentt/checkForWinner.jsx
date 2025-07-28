@@ -17,7 +17,7 @@ export default function CheckForWinner(squares) {
         [2, 4, 6],
     ];
     // Check if there is a winner
-    // This function checks the squares array for a winning combination     
+    // This function checks the squares array for a winning combination
 
     for (let [a, b, c] of lines) {
         if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
