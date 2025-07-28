@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import '../css/Board.css';
+//Variables for the board component
+//This component renders the board and squares for the Tic Tac Toe game 
 export default function Board({ squares, onClick, winnerLine }) {
     const renderSquare = (i) => {
         const isWinnerSquare = winnerLine && winnerLine.includes(i);
@@ -10,7 +12,7 @@ export default function Board({ squares, onClick, winnerLine }) {
             >
                 {squares[i]}
             </button>
-        );
+        )
     }
 
 
